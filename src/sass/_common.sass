@@ -101,6 +101,12 @@ body
 	background-image: url("../img/tovarro500-bg.jpg")
 	background-position: center center
 	background-repeat: no-repeat
+	+r(1300)
+		background-position: center 200px
+	+r(980)
+		background-position: center 100px
+	+r(640)
+		background-position: center 50px
 .tovarro500
 	font-size: 23px
 	line-height: 1.2
@@ -133,8 +139,14 @@ body
 		+r(720)
 			width: 85%
 	.logo
-		margin-top: 50px
-		margin-bottom: 50px
+		margin-top: 100px
+		margin-bottom: 150px
+		+r(2400)
+			margin-top: 100px
+			margin-bottom: 100px
+		+r(2000)
+			margin-top: 50px
+			margin-bottom: 50px
 		+r(980)
 			margin-top: 20px
 			margin-bottom: 25px

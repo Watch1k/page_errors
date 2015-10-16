@@ -297,6 +297,15 @@ body {
   background-image: url("../img/tovarro500-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat; }
+@media only screen and (max-width: 1300px) {
+  .tovarro500__wrap {
+    background-position: center 200px; } }
+@media only screen and (max-width: 980px) {
+  .tovarro500__wrap {
+    background-position: center 100px; } }
+@media only screen and (max-width: 640px) {
+  .tovarro500__wrap {
+    background-position: center 50px; } }
 
 .tovarro500 {
   font-size: 23px;
@@ -339,8 +348,16 @@ body {
   .tovarro500 p {
     width: 85%; } }
 .tovarro500 .logo {
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-top: 100px;
+  margin-bottom: 150px; }
+@media only screen and (max-width: 2400px) {
+  .tovarro500 .logo {
+    margin-top: 100px;
+    margin-bottom: 100px; } }
+@media only screen and (max-width: 2000px) {
+  .tovarro500 .logo {
+    margin-top: 50px;
+    margin-bottom: 50px; } }
 @media only screen and (max-width: 980px) {
   .tovarro500 .logo {
     margin-top: 20px;
