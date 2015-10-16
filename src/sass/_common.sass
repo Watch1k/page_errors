@@ -1,0 +1,82 @@
+// fonts
+$default-fonts: Arial, sans-serif
+
+// colors
+
+
+/*-------------------------------------------------------------------------*/
+/*----------------------------- MAIN STYLES -------------------------------*/
+/*-------------------------------------------------------------------------*/
+a:hover, a:focus
+	text-decoration: none
+a
+	color: inherit
+svg
+	width: 100%
+	height: 100%
+body
+	min-width: 320px
+	font: 14px "PT Sans", Arial, Myriad Pro, Tahoma, Geneva, sans-serif
+	line-height: 20px
+.wrapper
+	overflow: hidden
+	min-height: 100%
+	// padding-bottom: 371px
+.footer
+	// margin-top: -371px
+/*-------------------------------------------------------------------------*/
+/*----------------------------- mgid 500 ----------------------------------*/
+/*-------------------------------------------------------------------------*/
+.mgid500__wrap
+	position: absolute
+	z-index: 200
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	color: #fff
+	text-align: center
+	background-color: #282828
+	background-image: url("../img/mgid500-bg.jpg")
+	background-position: center center
+	background-size: cover
+.mgid500
+	font-size: 23px
+	line-height: 1.2
+	.logo__error
+		margin-top: 100px
+		margin-bottom: 200px
+		display: inline-block
+		+r(1200)
+			margin-top: 75px
+			margin-bottom: 100px
+		+r(820)
+			margin-top: 50px
+			margin-bottom: 50px
+		+r(600)
+			margin-top: 10px
+	h1
+		font-size: 57px
+		text-transform: uppercase
+		margin-bottom: 15px
+		+r(980)
+			font-size: 50px
+		+r(820)
+			font-size: 45px
+		+r(700)
+			font-size: 40px
+		+r(600)
+			font-size: 30px
+		+r(480)
+			font-size: 24px
+	p
+		margin: 0 auto
+		width: 70%
+		+r(700)
+			width: 90%
+			font-size: 20px
+		+r(600)
+			font-size: 18px
+		+r(480)
+			width: auto
+			padding: 0 10px
