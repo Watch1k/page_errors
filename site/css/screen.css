@@ -261,7 +261,10 @@ body {
     font-size: 24px; } }
 .mgid500 p {
   margin: 0 auto;
-  width: 70%; }
+  width: 50%; }
+@media only screen and (max-width: 1400px) {
+  .mgid500 p {
+    width: 70%; } }
 @media only screen and (max-width: 700px) {
   .mgid500 p {
     width: 90%;
