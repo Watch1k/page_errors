@@ -226,9 +226,13 @@ body {
   font-size: 23px;
   line-height: 1.2; }
 .mgid500 .logo__error {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-bottom: 350px;
   display: inline-block; }
+@media only screen and (max-width: 1920px) {
+  .mgid500 .logo__error {
+    margin-top: 100px;
+    margin-bottom: 200px; } }
 @media only screen and (max-width: 1200px) {
   .mgid500 .logo__error {
     margin-top: 75px;
