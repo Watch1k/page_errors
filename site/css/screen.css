@@ -279,9 +279,10 @@ a.logo {
   color: #3c4049;
   text-align: center;
   background-color: #fff;
-  background-image: url("../img/lenta500-bg.jpg");
+  background-image: url("../img/lenta500-bg.png");
   background-position: center 200px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
 
 .lenta500 {
   font-family: "Open Sans", Arial, sans-serif;
@@ -303,6 +304,12 @@ a.logo {
   margin-bottom: 20px;
   font-size: 58px;
   color: #6a3791; }
+@media only screen and (max-width: 1600px) {
+  .lenta500 h1 {
+    margin-top: 300px; } }
+@media only screen and (max-width: 1440px) {
+  .lenta500 h1 {
+    margin-top: 250px; } }
 .lenta500 p {
   margin: 0 auto; }
 @media only screen and (max-width: 2000px) {
