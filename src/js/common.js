@@ -1,6 +1,6 @@
 head.ready(function(){
 
 // fix IE8 background-size
-	$('.section').css("background-size", "cover");
+	$('.mgid500__wrap').css("background-size", "cover");
 	
 });
